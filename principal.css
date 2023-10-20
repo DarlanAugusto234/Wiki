@@ -1,0 +1,499 @@
+/* Escalas do Site */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do Site */
+.corpo {
+    color: white;
+    background-color: black;
+    background-image: url(imagens/BannerJujutsu.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+}
+
+/* Imagem Adaptavel (Responsiva) */
+div img{
+    width: 100%;
+}
+
+/* ----------Divisão---------- */
+
+/* Logo do Site */
+.Logo{
+    margin-right: 400px;
+    cursor: pointer;
+}
+
+/* Config do Menu */
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Borda do Menu */
+header{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 15px rgb(255, 255, 255);
+    width: 100%;
+}
+
+/* Menu do Site */
+div a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 20px;
+    position: relative;
+}   
+
+nav a{
+    font-size: 20px;
+}
+
+/* ----------Divisão---------- */
+
+/* Tamanho da ScrollBar do Site */
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+/* Cor da ScrollBar */
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+
+/* ----------Divisão---------- */
+
+/* Diminuir o Tamanho da Font */
+.Small{
+    font-size: small;
+    text-align: center;
+}
+
+/* Alinhando todas as tags <h1> para o centro */
+h1{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0px 1px 10px white;
+}
+
+/* Alinhando todas as tags <p> para o centro */
+p{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* ----------Divisão---------- */
+
+/* Efeito do Inicio */
+nav .Inicio::after{
+    content: " ";
+    width: 0px;
+    height: 3px;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+/* Animação Inicio */
+nav .Inicio:hover::after{
+    width: 45px;
+}
+
+/* ----------Divisão---------- */
+
+/* Efeito do Jujutsu Kaisen */
+nav .Jujutsu_Kaisen::after{
+    content: " ";
+    width: 0px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+/* Animação Jujutsu Kaisen */
+nav .Jujutsu_Kaisen:hover::after{
+    width: 119px;
+}
+
+nav .Jujutsu_Kaisen:hover{
+    color: red;
+    transition: 1s;
+}
+
+/* ----------Divisão---------- */
+
+/* Efeito do HxH */
+nav .HxH::after{
+    content: " ";
+    width: 0px;
+    height: 2px;
+    background-color: rgb(255, 174, 0);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+/* Animação HxH */
+nav .HxH:hover::after{
+    width: 135px;
+}
+
+nav .HxH:hover{
+    color: rgb(255, 174, 0);
+    transition: 1s;
+}
+
+/* ----------Divisão---------- */
+
+/* Efeito do Boku no Hero */
+nav .Boku_no_Hero::after{
+    content: " ";
+    width: 0px;
+    height: 2px;
+    background-color: rgba(102, 255, 0, 0.973);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+/* Animação Boku no Hero */
+nav .Boku_no_Hero:hover::after{
+    width: 115px;
+}
+
+/* Animação de Mudança de Cor*/
+nav .Boku_no_Hero:hover{
+    color: rgb(102, 255, 0, 0.973);
+    transition: 1s;
+}
+
+/* ----------Divisão---------- */
+
+/* Efeito do AnoHana */
+nav .AnoHana::after{
+    content: " ";
+    width: 0px;
+    height: 2px;
+    background-color: rgb(255, 0, 191);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+/* Animação AnoHana */
+nav .AnoHana:hover::after{
+    width: 75px;
+}
+
+/* Animação de Mudança de Cor*/
+nav .AnoHana:hover{
+    color: rgb(255, 0, 191);
+    transition: 1s;
+}
+
+/* ----------Divisão---------- */
+
+/* Section Jujutsu Kaisen */
+.Jujutsu{
+    border: solid white;
+    margin: 80px;
+    box-shadow: 0px 1px 35px rgb(255, 0, 0);
+    border-radius: 50px;
+    background-color: black;
+}
+
+/* Resolução Responsiva (Jujutsu Kaisen)*/
+div .FotoJJK{
+    width: 100%;
+}
+
+.ConfigJJK{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: solid white;
+    border-radius: 50px;
+    border-bottom: 0px;
+}
+
+/* Imagem Jujutsu Kaisen*/
+.FotoJJK{
+    border-radius: 50px;
+}
+
+/* ----------Divisão---------- */
+
+/* Section Satoru Gojou */
+.Satoru_Gojou{
+    border: solid rgb(46, 253, 236);
+    margin: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 0px 0px 35px rgb(46, 253, 236);
+    border-radius: 50px;
+    background-color: black;
+}
+
+/* Resolução Responsiva (Satoru Gojou)*/
+div .FotoGojou{
+    width: 100%;
+}
+
+.ConfigGojou{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: solid rgb(46, 253, 236);
+    border-radius: 50px;
+    border-bottom: 0px;
+}
+
+/* Imagem Satoru Gojou */
+.FotoGojou{
+    border-radius: 50px;
+}
+
+/* ----------Divisão---------- */
+
+/* Section Itadori Yuji */
+.Itadori_Yuji{
+    border: solid rgb(253, 135, 224);
+    margin: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 0px 1px 35px rgb(253, 135, 224);
+    border-radius: 50px;
+    background-color: black;
+}
+
+/* Resolução Responsiva (Itadori Yuji) */
+div .FotoItadori{
+    width: 100%;
+}
+
+.ConfigItadori{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: solid rgb(253, 135, 224);
+    border-radius: 50px;
+    border-bottom: 0px;
+}
+
+/* Imagem Itadori Yuji */
+.FotoItadori{
+    border-radius: 50px;
+}
+
+/* ----------Divisão---------- */
+
+/* Section Megumi Fushiguro */
+.Megumi_Fushiguro{
+    border: solid rgb(114, 113, 113);
+    margin: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 0px 1px 35px rgb(114, 113, 113);
+    border-radius: 50px;
+    background-color: black;
+}
+
+/* Resolução Responsiva (Megumi Fushiguro) */
+div .FotoMegumi{
+    width: 100%;
+}
+
+.ConfigMegumi{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: solid rgb(114, 113, 113);
+    border-radius: 50px;
+    border-bottom: 0px;
+}
+
+/* Imagem Megumi Fushiguro */
+.FotoMegumi{
+    border-radius: 50px;
+}
+
+/* ----------Divisão---------- */
+
+/* Section Nobara Kugisaki */
+.Nobara_Kugisaki{
+    border: solid rgb(255, 94, 0);
+    margin: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 0px 1px 35px rgb(255, 94, 0);
+    border-radius: 50px;
+    background-color: black;
+}
+
+/* Resolução Responsiva (Nobara Kugisaki) */
+div .FotoNobara{
+    width: 100%;
+}
+
+.ConfigNobara{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: solid rgb(255, 94, 0);
+    border-radius: 50px;
+    border-bottom: 0px;
+}
+
+/* Imagem Nobara Kugisaki */
+.FotoNobara{
+    border-radius: 50px;
+}
+
+/* ----------Divisão---------- */
+
+/* Section Ryomen Sukuna */
+.Ryomen_Sukuna{
+    border: solid rgb(150, 0, 0);
+    margin: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 0px 1px 35px rgb(150, 0, 0);
+    border-radius: 50px;
+    background-color: black;
+}
+
+/* Resolução Responsiva (Ryomen Sukuna) */
+div .FotoSukuna{
+    width: 100%;
+}
+
+.ConfigSukuna{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: solid rgb(150, 0, 0);
+    border-radius: 50px;
+    border-bottom: 0px;
+}
+
+/* Imagem Ryomen Sukuna */
+.FotoSukuna{
+    border-radius: 50px;
+}
+
+/* ----------Divisão---------- */
+
+/* Tabela em CSS */
+td, tr, th{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+/* Alinhamento do Texto */
+.Titulo_Table{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgb(9, 255, 0);
+}
+
+/* Borda da Tabela */
+table{
+    margin-left: 370px;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 1px 10px rgb(30, 255, 0);
+    background-color: black;
+    margin-bottom: 90px;
+}
+
+/* Rodapé */
+.container-9{
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px -10px 20px rgb(250, 250, 250);
+    padding-bottom: 10px;
+}
+
+/* ----------Divisão---------- */
+
+/* Forma do Circulo */
+.circulo{
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 100px;
+    box-shadow: 0px 1px 20px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* ----------Divisão---------- */
+
+/* Forma Metade de um Circulo*/
+.metade{
+    float: left;
+    width: 100px;
+    height: 100px;
+    shape-outside: circle(50% at 30%);
+    clip-path: circle(50% at 0%);
+    background: rgb(255, 0, 0);
+    margin-left: 450px;
+    margin-top: -100px;
+    box-shadow: 0px 1px 20px rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+/* ----------Divisão---------- */
+
+/* Forma de um Poligono*/
+.poligon{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+    background: rgb(255, 174, 0);
+    margin-left: 630px;
+    margin-top: -100px;
+    cursor: pointer;
+}
+
+/* ----------Divisão---------- */
+
+/* Forma de um Quadrado*/
+.quadrado{
+    background: rgba(102, 255, 0, 0.973);
+    width: 100px;
+    height: 100px;
+    margin-left: 850px;
+    margin-top: -100px;
+    box-shadow: 0px 1px 20px rgba(102, 255, 0, 0.973);
+    cursor: pointer;
+}
+
+/* ----------Divisão---------- */
+
+/* Forma de um Triangulo */
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid rgb(255, 0, 191);
+    margin-left: 1100px;
+    margin-top: -90px;
+    cursor: pointer;
+}
